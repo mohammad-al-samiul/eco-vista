@@ -44,3 +44,5 @@ function getLocationByName(location) {
   );
   return foundLocation || {};
 }
+
+export { getLocations, getLocationByName };
