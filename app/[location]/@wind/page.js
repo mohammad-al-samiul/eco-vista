@@ -1,5 +1,6 @@
 import NoLocationInfo from "@/components/NoLocationInfo";
 import WindComponent from "@/components/WindComponent";
+import { getResolvedLatLong } from "@/lib/location-info";
 
 export default async function WindPage({
   params: { location },
